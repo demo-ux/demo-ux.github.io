@@ -1,6 +1,175 @@
  //Products
  const products = [
   {
+    id: 26,
+    title: 'თანამედროვე დიზაინის ორეული ბეჭედი(ზომა 19.5, ჯდება ერთმანეთში) ფასი 700$',
+    prob: '585',
+    weight: 8.86,
+    
+    img1: 'img/ocdaeqvsi.jpg',
+    img2: 'img/ocdaeqvsiOri.jpg',
+    category: 'ring',
+    gender: 'woman',
+    sold: false,
+    description: 'ჯდება ერთმანეთში. ორ ფერში. თეთრი და ყვითელი ოქრო. ბრილიანტები დიდი ბეჭდის - ჯამში 0.20 კარატი(4 ცალი -0.05კტ ბრიილიანტი), პატარა ბეჭდის - 3 ცალი 0.03კტ '
+  },
+  {
+    id: 25,
+    title: 'ევროპული ქარხნული ბეჭედი ბრილიანტებით(ზომა 16, ჯამში 1 კარატამდე)',
+    prob: '14კტ',
+    weight: 7.67,
+    price: 2500,
+    img1: 'img/ocdaxuti.jpg',
+    img2: 'img/ocdaxutiOri.jpg',
+    category: 'ring',
+    gender: 'woman',
+    sold: false
+  },
+  {
+    id: 24,
+    title: 'ბეჭედი აქვამარინი ბრილიანტებით(ზომა 19.5)',
+    prob: 750,
+    weight: 12.82,
+    price: 3000,
+    img1: 'img/ocdaotxi.jpg',
+    img2: 'img/ocdaotxiOri.jpg',
+    category: 'ring',
+    gender: 'woman',
+    sold: false
+  },
+  {
+    id: 23,
+    title: 'ძველი ხელნაკეთი ბეჭედი ონიქსი ბრილიანტებით(ზომა 22)',
+    prob: 585,
+    weight: 9.9,
+    price: 1500,
+    img1: 'img/ocdasami.jpg',
+    img2: 'img/ocdasamiOri.jpg',
+    category: 'ring',
+    gender: 'woman',
+    sold: false
+  },
+  {
+    id: 22,
+    title: 'ძველი ქარხნული ბეჭედი საფირით(ზომა 24)',
+    prob: 583,
+    weight: 16.81,
+    price: 2500,
+    img1: 'img/ocdaori.jpg',
+    img2: '',
+    category: 'ring',
+    gender: 'woman',
+    sold: false
+  },
+  {
+    id: 21,
+    title: 'ევროპული ქარხნული ბეჭედი ბრილიანტებით(ზომა 18.5, 10ც ბრილიანტი, ჯამში 0.20 კარატი)',
+    prob: 750,
+    weight: 9.7,
+    price: 2500,
+    img1: 'img/ocdaerti.jpg',
+    img2: '',
+    category: 'ring',
+    gender: 'woman',
+    sold: false
+  },
+  {
+    id: 20,
+    title: 'ევროპული ქარხნული ბეჭედი ბრილიანტებით(ზომა 16, 11ც ბრილიანტი, ჯამში 0.30 კარატი)',
+    prob: 750,
+    weight: 10.46,
+    price: 2500,
+    img1: 'img/oci.jpg',
+    img2: '',
+    category: 'ring',
+    gender: 'woman',
+    sold: false
+  },
+  {
+    id: 19,
+    title: 'ძველი ხელნაკეთი ბეჭედი მინანქრით, საფირითა და ბრილიანტებით(ზომა 20)',
+    prob: 583,
+    weight: 9.23,
+    price: 2500,
+    img1: 'img/19.jpg',
+    img2: 'img/19-ori.jpg',
+    category: 'ring',
+    gender: 'woman',
+    sold: false
+  },
+  {
+    id: 18,
+    title: 'ძველი ხელნაკეთი ბეჭედი მინანქრით, საფირითა და ბრილიანტებით(ზომა 20, 12ც ბრილიანტი, ჯამში 1.3 კარატი)',
+    prob: 750,
+    weight: 13.57,
+    price: 4000,
+    img1: 'img/18-1.jpg',
+    img2: 'img/18-ori.jpg',
+    category: 'ring',
+    gender: 'woman',
+    sold: false
+  },
+   {
+    id: 17,
+    title: 'ბეჭედი ძოწი ბრილიანტებით(ზომა 18.5, 15ც ბრილიანტი, ჯამში 0.90 კარატი)',
+    prob: 583,
+    weight: 16.06,
+    price: 3500,
+    img1: 'img/17.jpg',
+    img2: '',
+    category: 'ring',
+    gender: 'woman',
+    sold: false
+  },
+  {
+    id: 16,
+    title: 'ბრილიანტის საყურეები(0.003 კარატი)',
+    prob: 585,
+    weight: 4.5,
+    price: 1000,
+    img1: 'img/16.jpg',
+    img2: '',
+    category: 'earings',
+    gender: 'woman',
+    sold: false
+  },
+  {
+    id: 15,
+    title: 'იტალიური ქარხნული მსხლები',
+    prob: 585,
+    weight: 5.6,
+    price: 900,
+    img1: 'img/15.jpg',
+    img2: '',
+    category: 'earings',
+    gender: 'woman',
+    sold: false
+  },
+  {
+    id: 14,
+    title: 'იტალიური ქარხნული მსხლები',
+    prob: 585,
+    weight: 10,
+    price: 1600,
+    img1: 'img/14.jpg',
+    img2: '',
+    category: 'earings',
+    gender: 'woman',
+    sold: false
+  },
+  {
+    id: 13,
+    title: 'ბრილიანტის საყურეები',
+    prob: 585,
+    weight: 8.14,
+    price: 1500,
+    img1: 'img/13.jpg',
+    img2: '',
+    category: 'earings',
+    gender: 'woman',
+    sold: false
+  },
+  {
     id: 12,
     title: 'ძველი ანტიკვარული ცეპი(62სმ)',
     prob: 56,
@@ -9,7 +178,8 @@
     img1: 'img/tormeti.jpg',
     img2: '',
     category: 'chain',
-    gender: 'woman'
+    gender: 'woman',
+    sold: false
   },
   {
     id: 11,
@@ -20,7 +190,8 @@
     img1: 'img/11.jpg',
     img2: '',
     category: 'chain',
-    gender: 'woman'
+    gender: 'woman',
+    sold: false
   },
   {
     id: 10,
@@ -31,7 +202,8 @@
     img1: 'img/10.jpg',
     img2: '',
     category: 'chain',
-    gender: 'woman'
+    gender: 'woman',
+    sold: false
   },
   {
     id: 9,
@@ -42,7 +214,8 @@
     img1: 'img/9.jpg',
     img2: '',
     category: 'chain',
-    gender: 'woman'
+    gender: 'woman',
+    sold: false
   },
   {
     id: 8,
@@ -53,7 +226,8 @@
     img1: 'img/8-1.jpg',
     img2: 'img/8-ori.jpg',
     category: 'chain',
-    gender: 'woman'
+    gender: 'woman',
+    sold: false
   },
   {
     id: 7,
@@ -64,7 +238,8 @@
     img1: 'img/7.jpg',
     img2: '',
     category: 'chain',
-    gender: 'woman'
+    gender: 'woman',
+    sold: false
   },
   {
     id: 6,
@@ -75,7 +250,8 @@
     img1: 'img/6.jpg',
     img2: '',
     category: 'chain',
-    gender: 'woman'
+    gender: 'woman',
+    sold: false,
   },
   {
     id:1,
@@ -86,7 +262,8 @@
     img1: 'img/watchWm1.jpg',
     img2: 'img/watchWm.jpg',
     category: 'watch',
-    gender: 'woman'
+    gender: 'woman',
+    sold: false
   },
   {
    id:2,
@@ -97,7 +274,8 @@
    img1: 'img/watchBracletWm.jpg',
    img2: '',
    category: 'bracelet',
-   gender: 'woman'
+   gender: 'woman',
+   sold: false
  },
    {
      id:3,
@@ -105,10 +283,11 @@
     prob: 583,
     weight: 22.15,
     price: 3300,
-    img1: 'img/watchBracletWm2.jpg',
+    img1: 'img/3.jpg',
     img2: '',
     category: 'bracelet',
-    gender: 'woman'
+    gender: 'woman',
+    sold: true
    },
    {
      id:4,
@@ -119,7 +298,8 @@
      img1: 'img/4.jpg',
      img2: '',
      category: 'bracelet',
-     gender: 'woman'
+     gender: 'woman',
+     sold: false
    },
    {
     id:5,
@@ -130,7 +310,8 @@
     img1: 'img/5.jpg',
     img2: '',
     category: 'bracelet',
-    gender: 'man'
+    gender: 'man',
+    sold: false
   }
 ];
 
