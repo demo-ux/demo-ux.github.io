@@ -1,5 +1,5 @@
- //Products
- const products = [
+//Products
+const products = [
   {
     id: 26,
     title: 'თანამედროვე დიზაინის ორეული ბეჭედი(ზომა 19.5, ჯდება ერთმანეთში) ფასი 700$',
@@ -11,7 +11,7 @@
     category: 'ring',
     gender: 'woman',
     sold: false,
-    description: 'ჯდება ერთმანეთში. ორ ფერში. თეთრი და ყვითელი ოქრო. ბრილიანტები დიდი ბეჭდის - ჯამში 0.20 კარატი(4 ცალი -0.05კტ ბრიილიანტი), პატარა ბეჭდის - 3 ცალი 0.03კტ '
+    description: 'იყიდება თანამედროვე დიზაინის ორეული ბეჭედი(ზომა 19.5, ჯდება ერთმანეთში) ფასი 700$. ორ ფერში. თეთრი და ყვითელი ოქრო. ბრილიანტები დიდი ბეჭდის - ჯამში 0.20 კარატი(4 ცალი -0.05კტ ბრილიანტი), პატარა ბეჭდის - 3 ცალი 0.03კტ ბრილიანტი. შესაძლებელია ზომის გადაკეთება.'
   },
   {
     id: 25,
@@ -23,7 +23,8 @@
     img2: 'img/ocdaxutiOri.jpg',
     category: 'ring',
     gender: 'woman',
-    sold: false
+    sold: false,
+    description: 'იყიდება ევროპული ქარხნული ბეჭედი ბრილიანტებით(ზომა 16, ჯამში 1 კარატამდე). შესაძლებელია ზომის გადაკეთება.'
   },
   {
     id: 24,
@@ -35,7 +36,8 @@
     img2: 'img/ocdaotxiOri.jpg',
     category: 'ring',
     gender: 'woman',
-    sold: false
+    sold: false,
+    description: 'იყიდება ბეჭედი აქვამარინი ბრილიანტებით(ზომა 19.5). შესაძლებელია ზომის გადაკეთება.'
   },
   {
     id: 23,
@@ -47,7 +49,8 @@
     img2: 'img/ocdasamiOri.jpg',
     category: 'ring',
     gender: 'woman',
-    sold: false
+    sold: false,
+    description: 'იყიდება ძველი ხელნაკეთი ბეჭედი ონიქსი ბრილიანტებით(ზომა 22). შესაძლებელია ზომის გადაკეთება.'
   },
   {
     id: 22,
@@ -59,7 +62,8 @@
     img2: '',
     category: 'ring',
     gender: 'woman',
-    sold: false
+    sold: false,
+    description: 'იყიდება ძველი ქარხნული ბეჭედი საფირით(ზომა 24). შესაძლებელია ზომის გადაკეთება.'
   },
   {
     id: 21,
@@ -71,7 +75,8 @@
     img2: '',
     category: 'ring',
     gender: 'woman',
-    sold: false
+    sold: false,
+    description: 'იყიდება ევროპული ქარხნული ბეჭედი ბრილიანტებით(ზომა 18.5, 10ც ბრილიანტი, ჯამში 0.20 კარატი). შესაძლებელია ზომის გადაკეთება.'
   },
   {
     id: 20,
@@ -83,7 +88,8 @@
     img2: '',
     category: 'ring',
     gender: 'woman',
-    sold: false
+    sold: false,
+    description: 'იყიდება ევროპული ქარხნული ბეჭედი ბრილიანტებით(ზომა 16, 11ც ბრილიანტი, ჯამში 0.30 კარატი). შესაძლებელია ზომის გადაკეთება.'
   },
   {
     id: 19,
@@ -95,11 +101,12 @@
     img2: 'img/19-ori.jpg',
     category: 'ring',
     gender: 'woman',
-    sold: false
+    sold: false,
+    description: 'იყიდება ძველი ხელნაკეთი ბეჭედი მინანქრით საფირითა და ბრილიანტებით. ზომა: 20. შესაძლებელია ზომის გადაკეთება.',
   },
   {
     id: 18,
-    title: 'ძველი ხელნაკეთი ბეჭედი მინანქრით, საფირითა და ბრილიანტებით(ზომა 20, 12ც ბრილიანტი, ჯამში 1.3 კარატი)',
+    title: 'ბეჭედი ძველი დაწახნაგების საფირი ბრილიანტებით(ზომა 20, 12ც ბრილიანტი, ჯამში 1.3 კარატი)',
     prob: 750,
     weight: 13.57,
     price: 4000,
@@ -107,7 +114,8 @@
     img2: 'img/18-ori.jpg',
     category: 'ring',
     gender: 'woman',
-    sold: false
+    sold: false,
+    description: 'იყიდება ბეჭედი ძველი დაწახნაგების საფირი ბრილიანტებიით. ზომა 20, 12ც ბრილიანტი, ჯამში 1.3 კარატი. შესაძლებელია ზომის გადაკეთება.'
   },
    {
     id: 17,
@@ -119,11 +127,12 @@
     img2: '',
     category: 'ring',
     gender: 'woman',
-    sold: false
+    sold: false,
+    description: 'იყიდება ბეჭედი ძოწი ბრილიანტებით. ზომა 18.5, 15ცალი ბრილიანტი, ჯამში 0.90 კარატი. შესაძლებელია ზომის გადაკეთება.'
   },
   {
     id: 16,
-    title: 'ბრილიანტის საყურეები(0.003 კარატი)',
+    title: 'ბრილიანტის საყურეები(0.03 კარატი)',
     prob: 585,
     weight: 4.5,
     price: 1000,
@@ -131,7 +140,8 @@
     img2: '',
     category: 'earings',
     gender: 'woman',
-    sold: false
+    sold: false,
+    description: 'იყიდება ბრილიანტის საყურეები. 0.03 კარატი.'
   },
   {
     id: 15,
@@ -143,7 +153,8 @@
     img2: '',
     category: 'earings',
     gender: 'woman',
-    sold: false
+    sold: false,
+    description: 'იყიდება იტალიური ქარხნული ოქროს მსხლები საყურეები.'
   },
   {
     id: 14,
@@ -155,7 +166,8 @@
     img2: '',
     category: 'earings',
     gender: 'woman',
-    sold: false
+    sold: false,
+    description: 'იყიდება იტალიური ქარხნული ოქროს მსხლები საყურეები.'
   },
   {
     id: 13,
@@ -167,7 +179,8 @@
     img2: '',
     category: 'earings',
     gender: 'woman',
-    sold: false
+    sold: false,
+    description: 'იყიდება ბრილიანტის საყურეები.'
   },
   {
     id: 12,
@@ -179,7 +192,8 @@
     img2: '',
     category: 'chain',
     gender: 'woman',
-    sold: false
+    sold: false,
+    description: 'იყიდება ძველი ანტიკვარული ცეპი. სიგრძე: 62სმ.'
   },
   {
     id: 11,
@@ -191,7 +205,8 @@
     img2: '',
     category: 'chain',
     gender: 'woman',
-    sold: false
+    sold: false,
+    description: 'იყიდება იტალიური ქარხნული ცეპი. სიგრძე: 57სმ.'
   },
   {
     id: 10,
@@ -203,7 +218,8 @@
     img2: '',
     category: 'chain',
     gender: 'woman',
-    sold: false
+    sold: false,
+    description: 'იყიდება იტალიური ქარხნული ოქროს ცეპი. სიგრძე: 51სმ.'
   },
   {
     id: 9,
@@ -215,7 +231,8 @@
     img2: '',
     category: 'chain',
     gender: 'woman',
-    sold: false
+    sold: false,
+    description: 'იყიდება ძველი ქარხნული ოქროს ცეპი. სიგრძე: 55სმ.'
   },
   {
     id: 8,
@@ -227,7 +244,8 @@
     img2: 'img/8-ori.jpg',
     category: 'chain',
     gender: 'woman',
-    sold: false
+    sold: false,
+    description: 'იყიდება ძველი ქარხნული ოქროს გრეხილი. სიგრძე: 50სმ.'
   },
   {
     id: 7,
@@ -239,7 +257,8 @@
     img2: '',
     category: 'chain',
     gender: 'woman',
-    sold: false
+    sold: false,
+    description: 'იყიდება იტალიური ქარხნული ოქროს ცეპი. სიგრძე: 70სმ.'
   },
   {
     id: 6,
@@ -252,6 +271,7 @@
     category: 'chain',
     gender: 'woman',
     sold: false,
+    description: 'იყიდება ბისმარკის ოქროს ცეპები. სიგრძე: 55სმ, 65სმ, 62სმ.'
   },
   {
     id:1,
@@ -263,7 +283,8 @@
     img2: 'img/watchWm.jpg',
     category: 'watch',
     gender: 'woman',
-    sold: false
+    sold: false,
+    description: 'იყიდება ძველი ქარხნული ოქროს საათი.'
   },
   {
    id:2,
@@ -275,7 +296,8 @@
    img2: '',
    category: 'bracelet',
    gender: 'woman',
-   sold: false
+   sold: false,
+   description: 'იყიდება ძველი ქარხნული ოქროს საათის ბრასლეტი.'
  },
    {
      id:3,
@@ -287,7 +309,8 @@
     img2: '',
     category: 'bracelet',
     gender: 'woman',
-    sold: true
+    sold: true,
+    description: 'იყიდება ძველი ქარხნული ოქროს საათის ბრასლეტი.'
    },
    {
      id:4,
@@ -299,7 +322,8 @@
      img2: '',
      category: 'bracelet',
      gender: 'woman',
-     sold: false
+     sold: false,
+     description: 'იყიდება გრაციელას ბრენდის ოქროს ბრასლეტი.'
    },
    {
     id:5,
@@ -311,7 +335,8 @@
     img2: '',
     category: 'bracelet',
     gender: 'man',
-    sold: false
+    sold: false,
+    description: 'იყიდება იტალიური ქარხნული ოქროს ბრასლეტი.'
   }
 ];
 
