@@ -25,9 +25,10 @@
     overflow-x: hidden; 
     font-family: normal-bold;
     font-weight: normal;
+    background: #f3f3f3;
   }
 
-  h2, h5, h6{
+  h2, h4, h5, h6{
     font-family: caps;
   }
 
@@ -192,6 +193,8 @@
     border-radius: 5px;
   }
 
+  /* Product Top*/
+ 
     /* Products*/
 
     .productsSection{

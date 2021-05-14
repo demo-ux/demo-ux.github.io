@@ -1,5 +1,72 @@
   //Products
- const products = [
+ 
+  const products = [
+  
+  {
+    id:1,
+    title: 'ძველი ქარხნული საათი',
+    prob: 583,
+    weight: 19.74,
+    price: 2100,
+    img1: 'img/watchWm1.jpg',
+    img2: 'img/watchWm.jpg',
+    category: 'watch',
+    gender: 'woman',
+    sold: false,
+    description: 'იყიდება ძველი ქარხნული ოქროს საათი.'
+  },
+  {
+   id:2,
+   title: 'ძველი ქარხნული საათის ბრასლეტი',
+   prob: 583,
+   weight: 13.5,
+   price: 2000,
+   img1: 'img/watchBracletWm.jpg',
+   img2: '',
+   category: 'bracelet',
+   gender: 'woman',
+   sold: false,
+   description: 'იყიდება ძველი ქარხნული ოქროს საათის ბრასლეტი.'
+ },
+   {
+     id:3,
+    title: 'ძველი ქარხნული საათის ბრასლეტი',
+    prob: 583,
+    weight: 22.15,
+    price: 3300,
+    img1: 'img/3.jpg',
+    img2: '',
+    category: 'bracelet',
+    gender: 'woman',
+    sold: true,
+    description: 'იყიდება ძველი ქარხნული ოქროს საათის ბრასლეტი.'
+   },
+   {
+     id:4,
+     title: 'გრაციელას ბრენდის ბრასლეტი',
+     prob: 750,
+     weight: 27.3,
+     price: 5400,
+     img1: 'img/4.jpg',
+     img2: '',
+     category: 'bracelet',
+     gender: 'woman',
+     sold: false,
+     description: 'იყიდება გრაციელას ბრენდის ოქროს ბრასლეტი.'
+   },
+   {
+    id:5,
+    title: 'იტალიური ქარხნული ბრასლეტი',
+    prob: 585,
+    weight: 42.91,
+    price: 6000,
+    img1: 'img/5.jpg',
+    img2: '',
+    category: 'bracelet',
+    gender: 'man',
+    sold: false,
+    description: 'იყიდება იტალიური ქარხნული ოქროს ბრასლეტი.'
+  },
   {
     id: 26,
     title: 'თანამედროვე დიზაინის ორეული ბეჭედი(ზომა 19.5, ჯდება ერთმანეთში) ფასი 700$',
@@ -272,73 +339,12 @@
     gender: 'woman',
     sold: false,
     description: 'იყიდება ბისმარკის ოქროს ცეპები. სიგრძე: 55სმ, 65სმ, 62სმ.'
-  },
-  {
-    id:1,
-    title: 'ძველი ქარხნული საათი',
-    prob: 583,
-    weight: 19.74,
-    price: 2100,
-    img1: 'img/watchWm1.jpg',
-    img2: 'img/watchWm.jpg',
-    category: 'watch',
-    gender: 'woman',
-    sold: false,
-    description: 'იყიდება ძველი ქარხნული ოქროს საათი.'
-  },
-  {
-   id:2,
-   title: 'ძველი ქარხნული საათის ბრასლეტი',
-   prob: 583,
-   weight: 13.5,
-   price: 2000,
-   img1: 'img/watchBracletWm.jpg',
-   img2: '',
-   category: 'bracelet',
-   gender: 'woman',
-   sold: false,
-   description: 'იყიდება ძველი ქარხნული ოქროს საათის ბრასლეტი.'
- },
-   {
-     id:3,
-    title: 'ძველი ქარხნული საათის ბრასლეტი',
-    prob: 583,
-    weight: 22.15,
-    price: 3300,
-    img1: 'img/3.jpg',
-    img2: '',
-    category: 'bracelet',
-    gender: 'woman',
-    sold: true,
-    description: 'იყიდება ძველი ქარხნული ოქროს საათის ბრასლეტი.'
-   },
-   {
-     id:4,
-     title: 'გრაციელას ბრენდის ბრასლეტი',
-     prob: 750,
-     weight: 27.3,
-     price: 5400,
-     img1: 'img/4.jpg',
-     img2: '',
-     category: 'bracelet',
-     gender: 'woman',
-     sold: false,
-     description: 'იყიდება გრაციელას ბრენდის ოქროს ბრასლეტი.'
-   },
-   {
-    id:5,
-    title: 'იტალიური ქარხნული ბრასლეტი',
-    prob: 585,
-    weight: 42.91,
-    price: 6000,
-    img1: 'img/5.jpg',
-    img2: '',
-    category: 'bracelet',
-    gender: 'man',
-    sold: false,
-    description: 'იყიდება იტალიური ქარხნული ოქროს ბრასლეტი.'
   }
+
 ];
+
+//Pros
+
 
   //Display All Products on Main Page
   var productsOuterDiv = document.getElementById('productsOuterDiv');
