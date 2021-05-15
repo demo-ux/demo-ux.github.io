@@ -1,7 +1,32 @@
   //Products
  
   const products = [
-  
+    {
+      id: 28,
+      title: 'იტალიური ქარხნული ბრასლეტი',
+      prob: 585,
+      weight: 7.8,
+      price: 1200,
+      img1: 'img/ocdarva.jpg',
+      img2: 'img/ocdarvaOri.jpg',
+      category: 'bracelet',
+      gender: 'man',
+      sold: false,
+      description: 'იყიდება იტალიური ქარხნული ოქროს ბრასლეტი.'
+    },
+  {
+    id: 27,
+    title: 'ბრასლეტი',
+    prob: 585,
+    weight: 9.3,
+    price: 1300,
+    img1: 'img/ocdashvidi.jpg',
+    img2: '',
+    category: 'bracelet',
+    gender: 'man',
+    sold: false,
+    description: 'იყიდება ოქროს ბრასლეტი.'
+  },
   {
     id:1,
     title: 'ძველი ქარხნული საათი',
