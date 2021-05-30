@@ -27,74 +27,10 @@
     sold: false,
     description: 'იყიდება ოქროს ბრასლეტი.'
   },
-  {
-    id:1,
-    title: 'ძველი ქარხნული საათი',
-    prob: 583,
-    weight: 19.74,
-    price: 2100,
-    img1: 'img/watchWm1.jpg',
-    img2: 'img/watchWm.jpg',
-    category: 'watch',
-    gender: 'woman',
-    sold: false,
-    description: 'იყიდება ძველი ქარხნული ოქროს საათი.'
-  },
-  {
-   id:2,
-   title: 'ძველი ქარხნული საათის ბრასლეტი',
-   prob: 583,
-   weight: 13.5,
-   price: 2000,
-   img1: 'img/watchBracletWm.jpg',
-   img2: '',
-   category: 'bracelet',
-   gender: 'woman',
-   sold: false,
-   description: 'იყიდება ძველი ქარხნული ოქროს საათის ბრასლეტი.'
- },
-   {
-     id:3,
-    title: 'ძველი ქარხნული საათის ბრასლეტი',
-    prob: 583,
-    weight: 22.15,
-    price: 3300,
-    img1: 'img/3.jpg',
-    img2: '',
-    category: 'bracelet',
-    gender: 'woman',
-    sold: true,
-    description: 'იყიდება ძველი ქარხნული ოქროს საათის ბრასლეტი.'
-   },
-   {
-     id:4,
-     title: 'გრაციელას ბრენდის ბრასლეტი',
-     prob: 750,
-     weight: 27.3,
-     price: 5400,
-     img1: 'img/4.jpg',
-     img2: '',
-     category: 'bracelet',
-     gender: 'woman',
-     sold: false,
-     description: 'იყიდება გრაციელას ბრენდის ოქროს ბრასლეტი.'
-   },
-   {
-    id:5,
-    title: 'იტალიური ქარხნული ბრასლეტი',
-    prob: 585,
-    weight: 42.91,
-    price: 6000,
-    img1: 'img/5.jpg',
-    img2: '',
-    category: 'bracelet',
-    gender: 'man',
-    sold: false,
-    description: 'იყიდება იტალიური ქარხნული ოქროს ბრასლეტი.'
-  },
+  
   {
     id: 26,
-    title: 'თანამედროვე დიზაინის ორეული ბეჭედი(ზომა 19.5, ჯდება ერთმანეთში) ფასი 700$',
+    title: 'თანამედროვე დიზაინის ორეული ბეჭედი(ჯდება ერთმანეთში) 700$',
     prob: '585',
     weight: 8.86,
     
@@ -107,7 +43,7 @@
   },
   {
     id: 25,
-    title: 'ევროპული ქარხნული ბეჭედი ბრილიანტებით(ზომა 16, ჯამში 1 კარატამდე)',
+    title: 'ევროპული ქარხნული ბეჭედი ბრილიანტებით',
     prob: '14კტ',
     weight: 7.67,
     price: 2500,
@@ -120,7 +56,7 @@
   },
   {
     id: 24,
-    title: 'ბეჭედი აქვამარინი ბრილიანტებით(ზომა 19.5)',
+    title: 'ბეჭედი აქვამარინი ბრილიანტებით',
     prob: 750,
     weight: 12.82,
     price: 3000,
@@ -133,7 +69,7 @@
   },
   {
     id: 23,
-    title: 'ძველი ხელნაკეთი ბეჭედი ონიქსი ბრილიანტებით(ზომა 22)',
+    title: 'ძველი ხელნაკეთი ბეჭედი ონიქსი ბრილიანტებით+',
     prob: 585,
     weight: 9.9,
     price: 1500,
@@ -146,7 +82,7 @@
   },
   {
     id: 22,
-    title: 'ძველი ქარხნული ბეჭედი საფირით(ზომა 24)',
+    title: 'ძველი ქარხნული ბეჭედი საფირით',
     prob: 583,
     weight: 16.81,
     price: 2500,
@@ -159,7 +95,7 @@
   },
   {
     id: 21,
-    title: 'ევროპული ქარხნული ბეჭედი ბრილიანტებით(ზომა 18.5, 10ც ბრილიანტი, ჯამში 0.20 კარატი)',
+    title: 'ევროპული ქარხნული ბეჭედი ბრილიანტებით',
     prob: 750,
     weight: 9.7,
     price: 2500,
@@ -172,7 +108,7 @@
   },
   {
     id: 20,
-    title: 'ევროპული ქარხნული ბეჭედი ბრილიანტებით(ზომა 16, 11ც ბრილიანტი, ჯამში 0.30 კარატი)',
+    title: 'ევროპული ქარხნული ბეჭედი ბრილიანტებით',
     prob: 750,
     weight: 10.46,
     price: 2500,
@@ -185,7 +121,7 @@
   },
   {
     id: 19,
-    title: 'ძველი ხელნაკეთი ბეჭედი მინანქრით, საფირითა და ბრილიანტებით(ზომა 20)',
+    title: 'ძველი ხელნაკეთი ბეჭედი მინანქრით, საფირითა და ბრილიანტებით',
     prob: 583,
     weight: 9.23,
     price: 2500,
@@ -198,7 +134,7 @@
   },
   {
     id: 18,
-    title: 'ბეჭედი ძველი დაწახნაგების საფირი ბრილიანტებით(ზომა 20, 12ც ბრილიანტი, ჯამში 1.3 კარატი)',
+    title: 'ბეჭედი ძველი დაწახნაგების საფირი ბრილიანტებით',
     prob: 750,
     weight: 13.57,
     price: 4000,
@@ -207,11 +143,11 @@
     category: 'ring',
     gender: 'woman',
     sold: false,
-    description: 'იყიდება ბეჭედი ძველი დაწახნაგების საფირი ბრილიანტებიით. ზომა 20, 12ც ბრილიანტი, ჯამში 1.3 კარატი. შესაძლებელია ზომის გადაკეთება.'
+    description: 'იყიდება ბეჭედი ძველი დაწახნაგების საფირი ბრილიანტებიით. ზომა 20. 12ც ბრილიანტი, ჯამში 1.3 კარატი. შესაძლებელია ზომის გადაკეთება.'
   },
    {
     id: 17,
-    title: 'ბეჭედი ძოწი ბრილიანტებით(ზომა 18.5, 15ც ბრილიანტი, ჯამში 0.90 კარატი)',
+    title: 'ბეჭედი ძოწი ბრილიანტებით',
     prob: 583,
     weight: 16.06,
     price: 3500,
@@ -224,7 +160,7 @@
   },
   {
     id: 16,
-    title: 'ბრილიანტის საყურეები(0.03 კარატი)',
+    title: 'ბრილიანტის საყურეები+',
     prob: 585,
     weight: 4.5,
     price: 1000,
@@ -250,7 +186,7 @@
   },
   {
     id: 14,
-    title: 'იტალიური ქარხნული მსხლები',
+    title: 'იტალიური ქარხნული მსხლები+',
     prob: 585,
     weight: 10,
     price: 1600,
@@ -276,7 +212,7 @@
   },
   {
     id: 12,
-    title: 'ძველი ანტიკვარული ცეპი(62სმ)',
+    title: 'ძველი ანტიკვარული ცეპი',
     prob: 56,
     weight: 10.31,
     price: 1550,
@@ -289,7 +225,7 @@
   },
   {
     id: 11,
-    title: 'იტალიური ქარხნული ცეპი(57სმ)',
+    title: 'იტალიური ქარხნული ცეპი',
     prob: 585,
     weight: 10.04,
     price: 1400,
@@ -302,7 +238,7 @@
   },
   {
     id: 10,
-    title: 'იტალიური ქარხნული ცეპი(51სმ)',
+    title: 'იტალიური ქარხნული ცეპი+',
     prob: 585,
     weight: 7.06,
     price: 1100,
@@ -315,7 +251,7 @@
   },
   {
     id: 9,
-    title: 'ძველი ქარხნული ცეპი(55სმ)',
+    title: 'ძველი ქარხნული ცეპი+',
     prob: 583,
     weight: 12,
     price: 1800,
@@ -328,7 +264,7 @@
   },
   {
     id: 8,
-    title: 'ძველი ქარხნული გრეხილი(50სმ)',
+    title: 'ძველი ქარხნული გრეხილი',
     prob: 583,
     weight: 17.47,
     price: 2600,
@@ -341,7 +277,7 @@
   },
   {
     id: 7,
-    title: 'იტალიური ქარხნული ცეპი(70სმ)',
+    title: 'იტალიური ქარხნული ცეპი',
     prob: 750,
     weight: 15.27,
     price: 2900,
@@ -354,7 +290,7 @@
   },
   {
     id: 6,
-    title: 'ბისმარკის ცეპები(55სმ, 65სმ, 62სმ)',
+    title: 'ბისმარკის ცეპები',
     prob: 583,
     weight: 15,
     price: 1950,
@@ -364,6 +300,74 @@
     gender: 'woman',
     sold: false,
     description: 'იყიდება ბისმარკის ოქროს ცეპები. სიგრძე: 55სმ, 65სმ, 62სმ.'
+  },
+  
+   {
+    id:5,
+    title: 'იტალიური ქარხნული ბრასლეტი',
+    prob: 585,
+    weight: 42.91,
+    price: 6000,
+    img1: 'img/5.jpg',
+    img2: '',
+    category: 'bracelet',
+    gender: 'man',
+    sold: false,
+    description: 'იყიდება იტალიური ქარხნული ოქროს ბრასლეტი.'
+  },
+
+  {
+    id:4,
+    title: 'გრაციელას ბრენდის ბრასლეტი',
+    prob: 750,
+    weight: 27.3,
+    price: 5400,
+    img1: 'img/4.jpg',
+    img2: '',
+    category: 'bracelet',
+    gender: 'woman',
+    sold: false,
+    description: 'იყიდება გრაციელას ბრენდის ოქროს ბრასლეტი.'
+  },
+  {
+    id:3,
+   title: 'ძველი ქარხნული საათის ბრასლეტი',
+   prob: 583,
+   weight: 22.15,
+   price: 3300,
+   img1: 'img/3.jpg',
+   img2: '',
+   category: 'bracelet',
+   gender: 'woman',
+   sold: true,
+   description: 'იყიდება ძველი ქარხნული ოქროს საათის ბრასლეტი.'
+  },
+
+  {
+    id:2,
+    title: 'ძველი ქარხნული საათის ბრასლეტი',
+    prob: 583,
+    weight: 13.5,
+    price: 2000,
+    img1: 'img/watchBracletWm.jpg',
+    img2: '',
+    category: 'bracelet',
+    gender: 'woman',
+    sold: false,
+    description: 'იყიდება ძველი ქარხნული ოქროს საათის ბრასლეტი.'
+  },
+  {
+    id:1,
+    title: 'ძველი ქარხნული საათი',
+    prob: 583,
+    weight: 19.74,
+    price: 2100,
+    img1: 'img/watchWm1.jpg',
+    img2: 'img/watchWm.jpg',
+    category: 'watch',
+    gender: 'woman',
+    sold: false,
+    description: 'იყიდება ძველი ქარხნული ოქროს საათი.'
   }
 
 ];
@@ -381,7 +385,7 @@
   <p><strong>წონა:</strong> ${product.weight} გრამი</p>
   <p><strong>სინჯი(პრობი):</strong> ${product.prob}</p>
   <p><strong>ფასი:</strong> ${product.price} ლარი</p>
-  <button class='btn btn-details'>დეტალურად</button>
+  <button class='btn btn-details' onclick='onDetailsClick(${product.id})'>დეტალურად</button>
   </div>` );
   
   outerDivProducts.innerHTML = mapWmBracelets.join('');
@@ -408,7 +412,7 @@
         <p><strong>წონა:</strong> ${product.weight} გრამი</p>
         <p><strong>სინჯი(პრობი):</strong> ${product.prob}</p>
         <p><strong>ფასი:</strong> ${product.price} ლარი</p>
-        <button class='btn btn-details'>დეტალურად</button>
+        <button class='btn btn-details' onclick='onDetailsClick(${product.id})'>დეტალურად</button>
       </div>`;
     }
     
@@ -422,7 +426,7 @@
   <p><strong>წონა:</strong> ${product.weight} გრამი</p>
   <p><strong>სინჯი(პრობი):</strong> ${product.prob}</p>
   <p><strong>ფასი:</strong> ${product.price} ლარი</p>
-  <button class='btn btn-details'>დეტალურად</button>
+  <button class='btn btn-details' onclick='onDetailsClick(${product.id})'>დეტალურად</button>
   </div>`);
   
   outerDivProducts.innerHTML = searchedResult.join('');
@@ -463,7 +467,7 @@
    <p><strong>წონა:</strong> ${product.weight} გრამი</p>
    <p><strong>სინჯი(პრობი):</strong> ${product.prob}</p>
    <p><strong>ფასი:</strong> ${product.price} ლარი</p>
-   <button class='btn btn-details'>დეტალურად</button>
+   <button class='btn btn-details' onclick='onDetailsClick(${product.id})'>დეტალურად</button>
   </div>` );
   outerDivProducts.innerHTML = result1.join('');
   }else if(select.value === '301₾ - 500₾'){
@@ -477,7 +481,7 @@
    <p><strong>წონა:</strong> ${product.weight} გრამი</p>
    <p><strong>სინჯი(პრობი):</strong> ${product.prob}</p>
    <p><strong>ფასი:</strong> ${product.price} ლარი</p>
-   <button class='btn btn-details'>დეტალურად</button>
+   <button class='btn btn-details' onclick='onDetailsClick(${product.id})'>დეტალურად</button>
   </div>` );
   outerDivProducts.innerHTML = result2.join('');
   }else if(select.value === '501₾ - 800₾'){
@@ -491,7 +495,7 @@
    <p><strong>წონა:</strong> ${product.weight} გრამი</p>
    <p><strong>სინჯი(პრობი):</strong> ${product.prob}</p>
    <p><strong>ფასი:</strong> ${product.price} ლარი</p>
-   <button class='btn btn-details'>დეტალურად</button>
+   <button class='btn btn-details' onclick='onDetailsClick(${product.id})'>დეტალურად</button>
   </div>` );
   outerDivProducts.innerHTML = result3.join('');
   }else if(select.value === '801₾ - 1000₾'){
@@ -505,7 +509,7 @@
   <p><strong>წონა:</strong> ${product.weight} გრამი</p>
   <p><strong>სინჯი(პრობი):</strong> ${product.prob}</p>
   <p><strong>ფასი:</strong> ${product.price} ლარი</p>
-  <button class='btn btn-details'>დეტალურად</button>
+  <button class='btn btn-details' onclick='onDetailsClick(${product.id})'>დეტალურად</button>
   </div>` );
   outerDivProducts.innerHTML = result4.join('');
   }else if(select.value === '1001₾ - 1500₾'){
@@ -519,7 +523,7 @@
   <p><strong>წონა:</strong> ${product.weight} გრამი</p>
   <p><strong>სინჯი(პრობი):</strong> ${product.prob}</p>
   <p><strong>ფასი:</strong> ${product.price} ლარი</p>
-  <button class='btn btn-details'>დეტალურად</button>
+  <button class='btn btn-details' onclick='onDetailsClick(${product.id})'>დეტალურად</button>
   </div>` );
   outerDivProducts.innerHTML = result5.join('');
   }else if(select.value === '1501₾ - 2000₾'){
@@ -533,7 +537,7 @@
   <p><strong>წონა:</strong> ${product.weight} გრამი</p>
   <p><strong>სინჯი(პრობი):</strong> ${product.prob}</p>
   <p><strong>ფასი:</strong> ${product.price} ლარი</p>
-  <button class='btn btn-details'>დეტალურად</button>
+  <button class='btn btn-details' onclick='onDetailsClick(${product.id})'>დეტალურად</button>
   </div>` );
   outerDivProducts.innerHTML = result6.join('');
   }else if(select.value === '2000₾+'){
@@ -547,7 +551,7 @@
   <p><strong>წონა:</strong> ${product.weight} გრამი</p>
   <p><strong>სინჯი(პრობი):</strong> ${product.prob}</p>
   <p><strong>ფასი:</strong> ${product.price} ლარი</p>
-  <button class='btn btn-details'>დეტალურად</button>
+  <button class='btn btn-details' onclick='onDetailsClick(${product.id})'>დეტალურად</button>
   </div>` );
   outerDivProducts.innerHTML = result7.join('');
   }else if(select.value === 'ყველა'){
@@ -561,10 +565,37 @@
   <p><strong>წონა:</strong> ${product.weight} გრამი</p>
   <p><strong>სინჯი(პრობი):</strong> ${product.prob}</p>
   <p><strong>ფასი:</strong> ${product.price} ლარი</p>
-  <button class='btn btn-details'>დეტალურად</button>
+  <button class='btn btn-details' onclick='onDetailsClick(${product.id})'>დეტალურად</button>
   </div>` );
   outerDivProducts.innerHTML = result8.join('');
   }
   }
   
   
+//on button details click
+ function onDetailsClick(id){
+  let productsSection = document.querySelector('.productsSection');
+  let filter= document.querySelector('.filter');
+  productsSection.style.display='none';
+  filter.style.display='none';
+  window.scrollTo(0, 0);
+  let productInner = document.querySelector('.productInner');
+    productInner.innerHTML= `<div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <section>
+            <h6><strong>${products[products.length-id].title}</strong></h6>
+            <p class="priceInDetails">${products[products.length-id].price} ლარად</p>
+            <hr>
+            <p>${products[products.length-id].description}</b>
+            </p>
+        </section>
+      </div>
+      <div class="col-md-8">
+          <img src="${products[products.length-id].img1}">
+          <img style="margin-top: 20px" src="${products[products.length-id].img2}">
+      </div>
+    </div>
+  </div>`;
+  
+  }
