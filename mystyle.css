@@ -8,6 +8,12 @@
   src: url(fonts/normal-bold.ttf);
 }
 
+@font-face {
+  font-family: bemio;
+  src: url(fonts/Bemio_0.ოtf);
+}
+
+
 
 * {
     margin: 0;
@@ -48,7 +54,6 @@
   .navbar-brand{
     color: #eaeae5;
     margin-left: 14px;
-    font-family: caps;
     display: flex;
     align-items: center;
   }
@@ -58,10 +63,10 @@
   }
 
   h1{
-    font-family: caps;
-    font-size: 16px;
+    font-family: bemio;
+    font-size: 20px;
     margin-left: 5px;
-    margin-top: 10px;
+    margin-top: 5px;
   }
 
   .navbar-brand:hover{
@@ -430,7 +435,7 @@
     }
 
     h1{
-      font-size: 20px;
+      font-size: 28px;
     }
     .navbar-brand img{
       width: 50px;
