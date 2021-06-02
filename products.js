@@ -577,30 +577,44 @@ productsOuterDiv.innerHTML = result8.join('');
 
 //on button details click
  function onDetailsClick(id){
+  let x = window.matchMedia("(min-width: 768px)");
   let productsSection = document.querySelector('.productsSection');
   let filter= document.querySelector('.filter');
   productsSection.style.display='none';
   filter.style.display='none';
   window.scrollTo(0, 0);
   let productInner = document.querySelector('.productInner');
-    productInner.innerHTML= `<div class="container">
+    
+    productInner.innerHTML= `
+    
+    <div class="container">
     <div class="row">
       <div class="col-md-4">
         <section>
+            <a href="index.html" class="goBack"><img src="./img/goBack.svg" alt="go-back"></a>
             <h6><strong>${products[products.length-id].title}</strong></h6>
             <p class="priceInDetails">${products[products.length-id].price} ლარად</p>
             <hr>
             <p>${products[products.length-id].description}</b>
             </p>
         </section>
+        
       </div>
       <div class="col-md-8">
           <img src="${products[products.length-id].img1}" alt="${products[products.length-id].title}">
           <img style="margin-top: 20px" src="${products[products.length-id].img2}">
       </div>
     </div>
+    
+    <div class="adsFlat">
+      <a href="https://www.airbnb.com/rooms/37653368?adults=1&guests=1&s=42&unique_share_id=79efad71-b06e-4877-81ef-4946821088c5&fbclid=IwAR1edxeyi8d26Ty3SWv_zgcMt6-PKsfaJrGk7VbHWsPl3aCPw2uStrgySrA&_branch_match_id=921809540664821310&source_impression_id=p3_1622635446_kL2W6ZCxx9XH8OiD">
+        <img src="./img/addFlat.jpg" alt="Appartment in Center of Tbilisi">
+        <div class="flatTextDiv">
+          <h6 class="flatText">ბინა თბილისის ცენტრში დღიურად!</h6>
+        </div>
+      </a>  
+    </div>
   </div>`;
-  
   }
 
   

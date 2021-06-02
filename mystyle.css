@@ -8,10 +8,10 @@
   src: url(fonts/normal-bold.ttf);
 }
 
-@font-face {
-  font-family: bemio;
-  src: url(fonts/Bemio_0.ოtf);
-}
+/* @font-face {
+  font-family: bemi2o;
+  src: url(fonts/Bemio_0.otf);
+} */
 
 
 
@@ -383,6 +383,7 @@
       margin-top: 55px;
       padding-bottom: 34px;
       display: flex;
+      position: relative;
     }
 
     .innerBody h6{
@@ -408,6 +409,40 @@
       align-items: center;
     }
 
+    
+
+    .goBack img{
+      width: 40px;
+    }
+
+    .adsFlat{
+      position: relative;
+      margin-top: 20px;
+    }
+    
+
+    .flatTextDiv{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      text-align: center !important;
+    }
+
+    .flatText{
+      text-align: center !important;
+      color: yellow; 
+      background: black;
+      margin-top: 0px;
+      padding: 8px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      font-size: 12px;
+    }
     .innerFooter{
       margin-top: 0px;
     }
@@ -460,6 +495,10 @@
     .mapOuter{
       width: 80%;
     }
+    .flatText{
+      padding: 7px;
+      font-size: 16px;   
+    }
   }
 
   @media only screen and (min-width: 768px) {
@@ -503,6 +542,16 @@
 
     .productInner{
       padding-bottom: 154px;
+    }
+    
+    .flatText{
+      padding: 17px;
+      height: 60px;
+      font-size: 22px;
+    }
+    .adsFlat{
+      display: flex;
+      justify-content: center;
     }
   }
 

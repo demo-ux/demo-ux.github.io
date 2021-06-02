@@ -582,6 +582,7 @@ const products = [
     <div class="row">
       <div class="col-md-4">
         <section>
+            <a href="index.html" class="goBack"><img src="./img/goBack.svg"></a>
             <h6><strong>${products[products.length-id].title}</strong></h6>
             <p class="priceInDetails">${products[products.length-id].price} ლარად</p>
             <hr>
